@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallivant</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin-right: 0px;
+        padding: 0px;
+        background: url(IMG/sun-g9949a55ad_1920.jpg);
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid rgb(51, 16, 175); */
+        position: absolute;
+        top: 20px;
+        margin-left: 34px;
+    }
+    .left img{
+        width: 60px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px 300px;
+        /* border: 2px solid red; */
+        font-family: 'Acme', sans-serif;
+    }
+
+    .right {
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        display: inline-block;
+        /* border: 2px solid rgb(33, 179, 111); */
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 15px;
+
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        color: rgb(140, 209, 149);
+        text-decoration: underline;
+        
+    }
+    .btn{
+        margin: 0px 8px;
+        padding: 4px 8px;
+        border-radius: 14px;
+        background-color: rgb(10, 6, 6);
+        color: white;
+        cursor: pointer;
+        font-family: 'Acme', sans-serif;
+    }
+    .btn:hover{
+        background-color: rgb(27, 22, 27);
+    }
+    
+    .container{
+        /* border: 2px solid purple; */
+        margin: 71px 151px;
+        padding: 78px 33px;
+        width: 33%;
+        font-family: 'Satisfy', cursive;
+        font-size: 51px;
+        color: white;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/gallivant.png" alt="">
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">CONTACT US</button>
+        </div>
+    </header>
+
+    <div class="container">
+        The most beautiful thing in the world is, of course, the world itself
+    </div>
+</body>
+
+</html>

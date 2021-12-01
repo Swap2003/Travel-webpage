@@ -1,0 +1,64 @@
+/* CSS reset */
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ :root{
+     --navbar-height: 59px
+ }
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    margin: 5px 10px ;
+    height: 64px;
+}
+
+#navbar{
+    position: relative;
+}
+
+#navbar ::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.4; */
+
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 15px;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+ 
+
