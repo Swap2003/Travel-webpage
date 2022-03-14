@@ -1,2 +1,2 @@
-# Travel-website
-A frontend travel website
+# Travel-webpage
+A frontend travel webpage
